@@ -30,6 +30,8 @@ To start the process from scratch, you will need to download necessary data from
 2. [Ontology skos Graph](https://databus.dbpedia.org/dbpedia/generic/categories/2021.09.01/categories_lang=en_skos.ttl.bz2)
 3. [Subject Lables](https://databus.dbpedia.org/dbpedia/generic/categories/2021.09.01/categories_lang=en_articles.ttl.bz2)
 
+If you want to use a different snapshot from DBPedia, you can find all the snapshots [here](https://databus.dbpedia.org/dbpedia#!#collections)
+
 We also provide processed data `processed_DBPedia.tar.gz` on [Google Drive](https://drive.google.com/drive/folders/1Y1QHfy6fEAxuz4XGhnNHxl130cGoXlZb?usp=sharing):
 
 The products of the proposed benchmarks (Engineering, Law, Comedy, and Main) from Ontologue are also provided on [Google Drive](https://drive.google.com/drive/folders/1Y1QHfy6fEAxuz4XGhnNHxl130cGoXlZb?usp=sharing)
