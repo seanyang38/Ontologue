@@ -39,14 +39,15 @@ The proposed benchmarks in arff format can be found with this [link](https://dri
 
 ### Descriptions for Each File
 
-**Extract_DBPedia.ipynb**: You can use this jupyter notebook to create customized datasets from DBPedia. Please see the annotations in the notebook for more instructions.
+- Extract_DBPedia.ipynb: You can use this jupyter notebook to create customized datasets from DBPedia. Please see the annotations in the notebook for more instructions.
+- Analyze_Dataset.ipynb: You can use this notebook to analyze and visualize the customized datasets from Ontologue and the current HMC benchmarks.
+- convert_medmentions.py: This script was used to convert [MedMentions](https://github.com/chanzuckerberg/MedMentions) [data](https://github.com/chanzuckerberg/MedMentions/tree/master/full) to required data structure for Ontologuue
+- input_data.py: include helper functions.
+- utils.py: include helper functions.
 
-**Analyze_Dataset.ipynb**: You can use this notebook to analyze and visualize the customized datasets from Ontologue and the current HMC benchmarks.
+## Apply to Your Own Graph
 
-**convert_medmentions.py**: This script was used to convert [MedMentions](https://github.com/chanzuckerberg/MedMentions) [data](https://github.com/chanzuckerberg/MedMentions/tree/master/full) to required data structure for Ontologuue
-
-**input_data.py** and **utils.py** include helper functions.
-
+We also show that Ontologue can be appied to a different source. [MedMentions](https://github.com/chanzuckerberg/MedMentions) provides annotations from UMLS on over 4k papers. We convert the annotations from MedMentions to the required format for Ontologue with `convert_medmentions.py`. You can modify the code to fit the data structure of your own source. 
 
 
 
