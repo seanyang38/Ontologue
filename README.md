@@ -41,7 +41,7 @@ The proposed benchmarks in arff format can be found with this [link](https://dri
 
 - Extract_DBPedia.ipynb: You can use this jupyter notebook to create customized datasets from DBPedia. Please see the annotations in the notebook for more instructions.
 - Analyze_Dataset.ipynb: You can use this notebook to analyze and visualize the customized datasets from Ontologue and the current HMC benchmarks.
-- convert_medmentions.py: This script was used to convert [MedMentions](https://github.com/chanzuckerberg/MedMentions) [data](https://github.com/chanzuckerberg/MedMentions/tree/master/full) to required data structure for Ontologuue
+- convert_medmentions.py: This script was used to convert [MedMentions](https://github.com/chanzuckerberg/MedMentions) ([data](https://github.com/chanzuckerberg/MedMentions/tree/master/full)) to required data structure for Ontologuue
 - input_data.py: include helper functions.
 - utils.py: include helper functions.
 
