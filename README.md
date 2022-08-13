@@ -5,7 +5,7 @@ Ontologue is a toolkit for ontological multi-label classification dataset constr
 The codes and data in this respository aim to:
 1. extract Wikipedia abstracts and the associated labels from the DBPedia ontology and create customized Hierarchical Multi-label (HMC) datasets.
 2. analyze the customized datasets and the current HMC benchmarks in terms of their distribution, structure, and context.
-3. provide 4 HMC benchmarks for future studies
+3. provide four HMC benchmarks for future studies
 
 ## How To Use
 
@@ -23,19 +23,31 @@ The code is written in python3 and jupyter notebook.
 - numpy
 - scipy
 
-
-### Descriptions for Each File
-**Extract_DBPedia.ipynb**: You can use this jupyter notebook to create customized datasets from DBPedia. Please see the annotations in the notebook for more instructions.
-**Analyze_Dataset.ipynb**: You can use this notebook to analyze and visualize the customized datasets from Ontologue and the current HMC benchmarks.
-**convert_medmentions.py**: This script was used to convert [MedMentions](https://github.com/chanzuckerberg/MedMentions) [data](https://github.com/chanzuckerberg/MedMentions/tree/master/full) to preferred data structure for Ontologuue
-**input_data.py** and **utils.py** include helper functions.
-
 ### Data
 
-To start the code from scratch, you will need to 
+To start the process from scratch, you will need to download necessary data from [DBPedia](https://databus.dbpedia.org/dbpedia/collections/dbpedia-snapshot-2021-09/), which include
+1. [Wikipedia short abstract](https://databus.dbpedia.org/dbpedia/text/short-abstracts/2021.08.01/short-abstracts_lang=en.ttl.bz2)
+2. [Ontology skos Graph](https://databus.dbpedia.org/dbpedia/generic/categories/2021.09.01/categories_lang=en_skos.ttl.bz2)
+3. [Subject Lables](https://databus.dbpedia.org/dbpedia/generic/categories/2021.09.01/categories_lang=en_articles.ttl.bz2)
 
-We also provide processed data on [Google Drive](https://drive.google.com/drive/folders/1Y1QHfy6fEAxuz4XGhnNHxl130cGoXlZb?usp=sharing):
-- processed_DBPedia.tar.gz
+We also provide processed data `processed_DBPedia.tar.gz` on [Google Drive](https://drive.google.com/drive/folders/1Y1QHfy6fEAxuz4XGhnNHxl130cGoXlZb?usp=sharing):
+
+The products of the proposed benchmarks (Engineering, Law, Comedy, and Main) from Ontologue are also provided on [Google Drive](https://drive.google.com/drive/folders/1Y1QHfy6fEAxuz4XGhnNHxl130cGoXlZb?usp=sharing)
+
+The proposed benchmarks in arff format can be found with this [link](https://drive.google.com/file/d/1UbCMNltGkN4Fbhs070duSzjTTyJFmPcb/view?usp=sharing)
+
+
+### Descriptions for Each File
+
+**Extract_DBPedia.ipynb**: You can use this jupyter notebook to create customized datasets from DBPedia. Please see the annotations in the notebook for more instructions.
+
+**Analyze_Dataset.ipynb**: You can use this notebook to analyze and visualize the customized datasets from Ontologue and the current HMC benchmarks.
+
+**convert_medmentions.py**: This script was used to convert [MedMentions](https://github.com/chanzuckerberg/MedMentions) [data](https://github.com/chanzuckerberg/MedMentions/tree/master/full) to required data structure for Ontologuue
+
+**input_data.py** and **utils.py** include helper functions.
+
+
 
 
 
