@@ -34,7 +34,7 @@ The code is written in python3 and jupyter notebook.
 
 To start the code from scratch, you will need to 
 
-We also provide processed data on [Google Drive](https://drive.google.com/file/d/1lc9l4nkfU2kQmLIQhwVVvpMq2dCXVZBJ/view?usp=sharing):
+We also provide processed data on [Google Drive](https://drive.google.com/drive/folders/1Y1QHfy6fEAxuz4XGhnNHxl130cGoXlZb?usp=sharing):
 - processed_DBPedia.tar.gz
 
 
