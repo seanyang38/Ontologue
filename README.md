@@ -52,7 +52,7 @@ The proposed benchmarks in arff format can be found with this [link](https://dri
 We also show that Ontologue can be appied to a different source. [MedMentions](https://github.com/chanzuckerberg/MedMentions) provides annotations from UMLS on over 4k papers. We convert the annotations from MedMentions to the required format for Ontologue with `convert_medmentions.py`. You can modify the code to fit the data structure of your own source. 
 
 ## Feedback, Questions, Issues
-If you have any comments, questions or issues, please post a note in GitHub issues. We will respond to you as soon as possible. Thank you!
+If you have any comments, questions or issues, please post in GitHub Issues. We will respond to you as soon as possible. Thank you!
 
 
 
